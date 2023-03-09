@@ -20,7 +20,7 @@ public class Aufgabe9 {
 
         double bmi = calculateBmi(weight,height);
         BmiClassification classifiedBmi = classifyBmi(bmi);
-        System.out.print("The Body Mass Index is " + bmi);
+        System.out.print("The Body Mass Index is " + bmi + " - classified as: " + classifiedBmi);
     }
 
 
