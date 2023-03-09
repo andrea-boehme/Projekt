@@ -8,7 +8,7 @@ public class Aufgabe8 {
         return bmi;
     }
 
-    public static String classify(double bmi) {
+    public static String classifyBmi(double bmi) {
         if (bmi < 18.5) {
             return "Underweight";
         } else if (bmi < 25) {
@@ -29,6 +29,6 @@ public class Aufgabe8 {
         System.out.print("Input height in meters");
         double height = sc.nextDouble();
         double bmi = calculateBMI(weight,height);
-        System.out.print("The Body Mass Index is " + bmi);
+        System.out.print("The Body Mass Index is " + bmi + " and that means " + classifyBmi(bmi));
     }
 }
