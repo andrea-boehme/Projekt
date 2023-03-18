@@ -14,7 +14,7 @@ public class GuessingGame {
 
     public static void newGuess() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please guess number: ");
+        System.out.println("Please guess number between 0 and 100: ");
         int number = scanner.nextInt();
         guess(number);
     }
