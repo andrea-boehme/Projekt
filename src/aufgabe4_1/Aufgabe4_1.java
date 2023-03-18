@@ -1,9 +1,8 @@
-package aufgabe7;
+package aufgabe4_1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Aufgabe7 {
+public class Aufgabe4_1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,8 +1,8 @@
-package aufgabe8;
+package aufgabe4_2;
 
 import java.util.Scanner;
 
-public class Aufgabe8 {
+public class Aufgabe4_2 {
     public static double calculateBMI(double weight, double height) {
         double bmi = weight / (height * height);
         return bmi;

@@ -1,8 +1,8 @@
-package aufgabe10;
+package aufgabe5;
 
 import java.util.Scanner;
 
-public class Aufgabe10 {
+public class Lcm {
     public static void main(String args[]) {
 
         Scanner scanner = new Scanner(System.in);

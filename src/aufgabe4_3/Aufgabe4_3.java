@@ -1,11 +1,11 @@
-package aufgabe9;
+package aufgabe4_3;
 
 import java.util.Scanner;
 
-public class Aufgabe9 {
+public class Aufgabe4_3 {
 
     /**
-     * Method (main) to Take input from the user, Create an instance of the Scanner class and Print out result
+     * Method (main) to Create an instance of the Scanner class, Take input from the user, Call and store result of method calculateBmi and Print out result
      * @param
      * @param
      * @return

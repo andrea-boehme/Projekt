@@ -1,4 +1,4 @@
-package aufgabe9;
+package aufgabe4_3;
 
 /**
  * Class definition, declare as separate file

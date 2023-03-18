@@ -1,4 +1,4 @@
-package aufgabe6;
+package aufgabe3;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +10,8 @@ class DivisibleByTwoTest {
     public void DivisibleByTwo() {
         assertTrue(DivisibleByTwo.isDivisibleByTwo(2));
         assertTrue(DivisibleByTwo.isDivisibleByTwo(10));
+
+        assertEquals(true, DivisibleByTwo.isDivisibleByTwo(10));
     }
     @Test
     public void NotDivisibleByTwo() {

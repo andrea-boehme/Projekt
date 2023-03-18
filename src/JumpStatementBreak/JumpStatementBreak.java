@@ -1,6 +1,6 @@
-package aufgabe3;
+package JumpStatementBreak;
 
-public class Aufgabe3 {
+public class JumpStatementBreak {
 
     public static void main(String[] args) {
 

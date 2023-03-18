@@ -1,4 +1,4 @@
-package aufgabe8;
+package aufgabe4_2;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-    class Aufgabe8Test {
+    class Aufgabe4_2Test {
 
         @Test
 
@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
             double weight = 70;
             double height = 1.70;
 
-            double BmiResult = Aufgabe8.calculateBMI(weight, height);
+            double BmiResult = Aufgabe4_2.calculateBMI(weight, height);
             assertEquals(24.22, BmiResult, 0.01);
 
         }
