@@ -1,8 +1,17 @@
 package aufgabe6;
 
-public class Aufgabe6 {
+import java.util.Scanner;
 
-    //    public static void main(String[] args){}
+public class DivisibleByTwo {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter number: ");
+        int number = scanner.nextInt();
+
+        Boolean result= isDivisibleByTwo(number);
+        System.out.println("Divisible by two: " + result);
+    }
 
         /**
          * A number divided by two, which doesn't result in a rest of zero
