@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class DivisibleByTwo {
 
+    private static final Integer DIVISOR = 2;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter number: ");
@@ -21,7 +23,7 @@ public class DivisibleByTwo {
          */
 
         public static boolean isDivisibleByTwo ( int number){
-            if (number % 2 == 0) {
+            if (number % DIVISOR == 0) {
                 return true;
             } else {
                 return false;
